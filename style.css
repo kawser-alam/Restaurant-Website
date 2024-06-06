@@ -85,6 +85,7 @@ nav button {
 }
 
 .menu1 {
+    margin-left: 27px;
     color: #FFF;
     text-align: center;
     font-family: "David Libre";
@@ -98,6 +99,7 @@ nav button {
 }
 
 .bookatable1 {
+    margin-left: -10px;
     width: 104px;
     height: 24.469px;
     color: #FFF;
@@ -112,7 +114,7 @@ nav button {
 }
 
 .bannerSocial {
-    margin-left: -120px;
+    margin-left: -119px;
     margin-top: 0px;
     display: flex;
     width: 50px;
@@ -523,4 +525,132 @@ nav button {
     font-size: 16px;
     font-weight: 700;
     border: none;
+}
+
+/* footer section  */
+
+.footer {
+    margin: 300px 120px 15px 127px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.followIcon {
+    display: flex;
+}
+
+.footerLogoText img {
+    margin-top: -50px;
+    width: 198px;
+    height: 55px;
+}
+
+.footerLogoText p {
+    margin-left: -2px;
+    margin-top: 21px;
+    width: 408px;
+    height: 90px;
+    color: #5C6574;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footerLogoText h5 {
+    color: #101A24;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.openTime {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.t1 {
+    color: #5C6574;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.t2 {
+    margin-top: 20px;
+    margin-left: -220px;
+    color: #5C6574;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.t3 {
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #5C6574;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.items h5 {
+    color: #101A24;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.items p {
+    margin-top: 15px;
+    color: #5C6574;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.followUs h5 {
+    margin-bottom: 20px;
+    color: #101A24;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.followIcon {
+    gap: 15px;
+}
+
+hr {
+    margin-left: 170px;
+    margin-bottom: 50px;
+    width: 1152px;
+    height: 1px;
+    opacity: 0.1;
+    background: #101A24;
+}
+
+.copyright {
+    display: flex;
+}
+
+.copyright img {
+    margin-top: 4px;
+    margin-left: 175px;
+    width: 13px;
+    height: 13px;
+}
+
+.copyright p,
+#p1 {
+    margin-left: -60px;
+    margin-bottom: 100px;
+    color: #5C6574;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#p1 {
+    margin-left: -200px;
 }
