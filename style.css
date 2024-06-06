@@ -3,4 +3,46 @@
 
 * {
     font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0;
+}
+
+/* nav section  */
+
+nav {
+    display: flex;
+    margin: 82px 180px 0px 180px;
+    justify-content: space-around;
+}
+
+.bannerLogo {
+    margin-right: 161px;
+    width: 198px;
+    height: 55px;
+}
+
+.navItems a {
+    margin-right: 45px;
+    text-decoration: none;
+    color: #101A24;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navItems{
+    margin-top: 25px;
+}
+
+nav button {
+    margin-left: 60px;
+    width: 167px;
+    height: 64px;
+    background-color: #EA6D27;
+    border: none;
+    border-radius: 20px 5px 20px 5px;
+    color: #FFF;
+    font-family: "David Libre";
+    font-size: 20px;
+    font-weight: 500;
 }
