@@ -3,16 +3,16 @@
 
 * {
     font-family: "Poppins", sans-serif;
-    margin: 0 auto;
+    margin: 0px auto;
     max-width: 1440px;
     padding: 0;
 }
 
-/* nav section  */
+/* navbar section  */
 
 nav {
     display: flex;
-    margin: 82px 180px 0px 180px;
+    margin: 50px 180px 0px 180px;
     justify-content: space-around;
 }
 
@@ -30,7 +30,8 @@ nav {
     font-size: 16px;
     font-weight: 400;
 }
-.navItems{
+
+.navItems {
     margin-top: 25px;
 }
 
@@ -45,4 +46,100 @@ nav button {
     font-family: "David Libre";
     font-size: 20px;
     font-weight: 500;
+}
+
+/* banner section */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bannerText h3 {
+    margin-left: -115px;
+    margin-top: 210px;
+    margin-bottom: 50px;
+    color: #101A24;
+    font-family: "David Libre";
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.bannerText p {
+    margin-left: -110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 376px;
+    height: 115px;
+    color: #5C6574;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bannerButtons {
+    display: flex;
+    margin-left: -140px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#menu {
+    color: #FFF;
+    text-align: center;
+    font-family: "David Libre";
+    font-size: 20px;
+    font-weight: 500;
+    width: 120px;
+    height: 54px;
+    background-color: #101A24;
+    border: none;
+    border-radius: 15px 5px 15px 5px;
+}
+
+#bookatable {
+    width: 104px;
+    height: 24.469px;
+    color: #FFF;
+    font-family: "David Libre";
+    font-size: 20px;
+    font-weight: 500;
+    width: 167px;
+    height: 54px;
+    background-color: #EA6D27;
+    border: none;
+    border-radius: 15px 5px 15px 5px;
+}
+
+.bannerSocial {
+    margin-left: -120px;
+    margin-top: 0px;
+    display: flex;
+    width: 50px;
+    height: 30px;
+}
+
+.bannerSocial img {
+    margin-right: 20px;
+}
+
+.bannerImg {
+    display: flex;
+    margin-top: 150px;
+}
+
+.bannerimg1 {
+    margin-left: -290px;
+    width: 400px;
+    height: 550px;
+    border-radius: 70px 30px 70px 30px;
+
+
+}
+
+.bannerimg2 {
+    margin-left: -730px;
+    margin-top: 280px;
+    width: 250px;
+    height: 250px;
 }
